@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1>Sign up!</h1>
+		
+		<div class="content">
+			<div class="picture">
+				<div class="logo">
+				<img src="/maximus.jpeg" alt="Maximus">
+				</div>
+			</div>
+
+			<div class="right">
+				<div class="text">
+				<p>This is not a real service! But what is real? If the idea exists, it must be real!</p>
+				<p>Already curious?</p>
+				<p class="sign-up-text">Sign up <em>now</em> to find out.</p>
+				</div>
+				<form action="#">
+					<div class="form">
+						<p class="form-title">Let's do this!</p> 
+						<div class="input">
+							<label for="first_name">First Name</label>
+							<input type="text" name="firstname" id="first_name" placeholder="Max" required>
+						</div>
+						<div class="input">
+							<label for="last_name">Last Name</label>
+							<input type="text" name="lastname" id ="last_name" placeholder="Mustermann" required>
+						</div>
+						<div class="input">
+							<label for="E-Mail"> Email</label>
+							<input type="email" name="E-Mail" id="E-Mail" placeholder="youremail@gmail.com" required>
+						</div>
+						<div class="input">
+							<label for="phone_number">Phone Number</label>
+							<input type="number" name="phone_number" id="phone_number">
+						</div>
+						<div class="input">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" minlength="8" maxlength="20">
+						</div>
+						<div class="input">
+							<label for="confirmpassword">Confirm Password</label>
+							<input type="password" name="confirmpassword" id="confirmpassword" minlength="8" maxlength="20">
+						</div>
+					</div>
+					<div class="button">
+						<button type="submit">Create Account</button>
+					</div>
+				</form>
+				<div class="login">
+					<p>Already have an account?</p> <a href="#"> Log in</a> 
+				
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
